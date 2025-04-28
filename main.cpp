@@ -2,11 +2,11 @@
 #include <PubSubClient.h>
 
 // Replace the SSID/Password details as per your wifi router
-const char* ssid = "ooredoo-68AE35";
-const char* password = "81BCE307Ck_64";
+const char* ssid = "*********";
+const char* password = "********";
 
 // Replace your MQTT Broker IP address here:
-const char* mqtt_server = "192.168.100.81";
+const char* mqtt_server = "**********";
 
 WiFiClient espClient;
 PubSubClient client(espClient);
